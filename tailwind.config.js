@@ -12,7 +12,7 @@ export default {
       },
       colors: {
         'Violet': '#5E17EB',
-        'blue': '#112949',
+        'blue': '#78ebf9',
         'bluDark': '#102845',
         'pink': '#fc5f92',
         'purple': '#bec7ff',
