@@ -94,16 +94,16 @@ const Project = () => {
     return (
         <div>
             <Section title="Proyectos" subTitle="textpooooooo">
-                <div className='grid grid-cols-2 gap-8 md:gap-14 md:grid-cols-3 mb-2 mx-24'>
+                <div className='grid grid-cols-2 gap-8 md:gap-14 md:grid-cols-3 mb-2 md:mx-24'>
                     {
                         Project.map(({ id, Image, title, GitHub, Demo }) =>
-                            <div key={id} className='max-w-lg flex flex-col justify-center items-center shadow-lg shadow-moon rounded-2xl dark:shadow-blue'>
+                            <div key={id} className='max-w-lg flex flex-col justify-center items-center shadow-lg shadow-moon rounded-2xl dark:shadow-blue hover:scale-90'>
                                     <h2 className=' font-McLaren'>{title}</h2>
-                                <img src={Image} alt='' width={400} className=' object-cover object-bottom' />
+                                <img src={Image} alt='' width={400} />
                                 <div>
-                                    <div className='flex justify-between'>
-                                    <a href=''><BsGithub /></a>
-                                    <a href=''><BiDesktop /></a>
+                                    <div className='flex justify-center gap-32'>
+                                    <a href={GitHub} target='_blank'><BsGithub className='mb-4 text-2xl' /></a>
+                                        <a href={Demo} target='_blank'><BiDesktop className='mb-4 text-2xl'/></a>
                                     </div>
                                 </div>
                             </div>
