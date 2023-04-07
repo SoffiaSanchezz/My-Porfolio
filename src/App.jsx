@@ -4,6 +4,8 @@ import NavBar from "./Components/Home/NavBar"
 import Hero from "./Components/Home/Hero";
 import Services from "./Components/Home/Services";
 import Project from "./Components/Project";
+import Skills from "./Components/Skills";
+import Contact from "./Components/Contact";
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
     <Hero />
     <Services/>
     <Project />
+    <Skills />
+    <Contact />
     </main>
     </div>
   )

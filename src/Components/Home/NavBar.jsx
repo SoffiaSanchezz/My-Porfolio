@@ -7,6 +7,7 @@ const NavBar = ({ darkMode, setDarkMode }) => {
   return (
     <div className=' bg-white dark:bg-moon text-bluDark dark:text-white'>
       <nav className='flex justify-between items-center p-5'>
+      
       {/* Este es mi Logo */}
           <div onClick={() => setDarkMode(!darkMode)}>
             {

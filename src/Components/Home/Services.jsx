@@ -64,7 +64,7 @@ const Services = () => {
     return (
 
         // se traen los estilos
-        <Section title='Skills' subTitle="infooo">
+        <Section title='Skills' subTitle="En este apartado, encontrarás una lista de las tecnologías en las que tengo experiencia y con las que he trabajado.">
 
         {/* se mapean las imagenes */}
             <div className='grid grid-cols-2 gap-7 md:grid-cols-3 lg:grid-cols-4'>
