@@ -12,9 +12,9 @@ const Contact = () => {
             {/* ---bottom form------- */}
             <div className='flex justify-center items-center'>
 
-                <div className=' p-8 text-left'>
+                <div className='form p-8 text-left'>
 
-                    <form action="" method='POST'>
+                    <form action="https://getform.io/f/ea42105b-d485-46f0-8af0-90fc854500b8" method='POST'>
                         <div className='w-full'>
                             <div className='flex flex-col'>
                                 <label className='capitalize text-xl py-2 font-bold font-Gochi text-pink'>
