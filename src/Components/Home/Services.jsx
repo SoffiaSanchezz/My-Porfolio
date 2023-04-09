@@ -62,8 +62,8 @@ const Services = () => {
         }
     ]
     return (
-
-        // se traen los estilos
+        <div name="Skills">
+        {/* // se traen los estilos */}
         <Section title='Skills' subTitle="En este apartado, encontrarás una lista de las tecnologías en las que tengo experiencia y con las que he trabajado.">
 
         {/* se mapean las imagenes */}
@@ -78,6 +78,7 @@ const Services = () => {
             }
             </div>
         </Section>
+        </div>
     )
 }
 

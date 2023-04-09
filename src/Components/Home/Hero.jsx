@@ -3,6 +3,7 @@ import { FaLinkedinIn, FaWhatsapp, FaGithub } from 'react-icons/fa'
 import Perfil from '../../assets/Img/Perfil.png'
 import DarkPerfil from '../../assets/Img/PerfilDark.png'
 import { BsChevronDoubleDown } from 'react-icons/bs'
+import SocialButton from './SocialButton'
 
 const Hero = () => {
 
@@ -26,7 +27,9 @@ const Hero = () => {
     ]
     
     return (
-        <section className=' min-h-screen flex flex-col justify-start items-center p-5  text-center'>
+        <div name="Home">
+        <br/>
+        <section  className=' min-h-screen flex flex-col justify-start items-center p-5  text-center mt-16'>
             <h2 className='text-5xl font-Titan text-Violet dark:text-pink'> Sofia Sanchez</h2>
             <h3 className='py-3 text-2xl font-McLaren font-bold'>Full Stack</h3>
             <p className='max-w-xl font-Poppins '>
@@ -54,16 +57,20 @@ const Hero = () => {
                     <div>
                         <a href='/Sofia-Curriculum.pdf'
                             target='_blank'
-                            className='flex items-center justify-center mt-10 py-2 border-2 border-pink rounded-xl font-McLaren text-3xl bg-gradient-to-r from-sky-500 to-indigo-500 hover:text-white dark:hover:text-blue dark:border-blue'> Resume </a>
+                                className='flex items-center justify-center mt-10 py-2 border-2 border-pink rounded-xl font-McLaren text-3xl bg-gradient-to-r from-sky-500 to-indigo-500 hover:text-moon dark:hover:text-blue dark:border-blue redSocial'> 
+                                <span className='z-50'>Resume</span>
+                                 </a>
                     </div>
                 </div>
             </div>
 
             {/* animacion de la imagen */}
             <div className='mt-10'>
-                <BsChevronDoubleDown className='text-2xl text-moon dark:text-Violet text-center animate-bounce'/>
+                <BsChevronDoubleDown className='text-2xl text-moon dark:text-blue text-center animate-bounce'/>
             </div>
         </section>
+        <SocialButton/>
+        </div>
     )
 }
 

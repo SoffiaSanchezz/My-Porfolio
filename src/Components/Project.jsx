@@ -105,7 +105,7 @@ const Project = () => {
 
 
     return (
-        <div>
+        <div name="Proyectos">
             <Section title="Proyectos" subTitle="Aquí te presento una lista de los proyectos que he desarrollado.">
                 <div className='grid grid-cols-2 gap-8 md:gap-14 md:grid-cols-3 mb-2 md:mx-24'>
                     {

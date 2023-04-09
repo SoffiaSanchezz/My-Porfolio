@@ -6,23 +6,26 @@ import Services from "./Components/Home/Services";
 import Project from "./Components/Project";
 import Skills from "./Components/Skills";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Home/Footer";
 
 function App() {
 
   //funcion Modo Dia Noche
-  const [darkMode, setDarkMode] = useState (false);
+  const [darkMode, setDarkMode] = useState(false);
 
   return (
     <div className={darkMode && "dark"}>
-    <NavBar darkMode={darkMode} setDarkMode={setDarkMode}/> 
+      <NavBar darkMode={darkMode} setDarkMode={setDarkMode} />
+      <br/>
 
-    <main className="bg-white dark:bg-moon text-moon dark:text-white">
-    <Hero />
-    <Services/>
-    <Project />
-    <Skills />
-    <Contact />
-    </main>
+      <main className="bg-white dark:bg-moon text-moon dark:text-white">
+        <Hero />
+        <Services />
+        <Skills />
+        <Project />
+        <Contact />
+        <Footer/>
+      </main>
     </div>
   )
 }
