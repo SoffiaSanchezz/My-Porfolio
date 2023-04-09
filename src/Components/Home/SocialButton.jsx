@@ -16,13 +16,13 @@ function SocialButton() {
             {showSocial && (
                 <div className="absolute bottom-20 right-0 bg-white dark:bg-moon shadow-md p-4 ">
                     <a href="https://wa.link/o5x1ij" className="block mb-2 text-Violet hover:text-bluDark dark:text-pink dark:hover:text-blue btn">
-                        <FaWhatsapp />
+                        <FaWhatsapp className="text-2xl" />
                     </a>
                     <a href="https://github.com/SoffiaSanchezz" className="block mb-2 text-Violet hover:text-bluDark dark:text-pink dark:hover:text-blue btn ">
-                        <FaGithub />
+                        <FaGithub className="text-2xl" />
                     </a>
                     <a href="https://www.linkedin.com/in/sofia-sanchez-vargas/" className="block text-Violet hover:text-bluDark dark:text-pink dark:hover:text-blue btn ">
-                        <FaLinkedin />
+                        <FaLinkedin className="text-2xl" />
                     </a>
                 </div>
             )}
